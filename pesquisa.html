@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monetização da Aplicação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #ecf0f1;
+    }
+    .example {
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Monetização da Aplicação</h1>
+
+  <h2>1. Monetização Direta (fontes de receita principais)</h2>
+
+  <h3>a) Taxa de serviço ou comissão</h3>
+  <p>Como funciona: cobra uma porcentagem sobre cada ingresso vendido através da plataforma.</p>
+  <p class="example">Exemplo: o evento custa R$100 → retém 5% (R$5).</p>
+  <p>Vantagem: escalável; quanto mais eventos, mais receita.</p>
+
+  <h3>b) Planos de assinatura para organizadores</h3>
+  <p>Como funciona: produtores pagam mensalmente para divulgar eventos, ter relatórios ou ferramentas premium.</p>
+  <ul>
+    <li>Gratuito: até 1 evento/mês.</li>
+    <li>Pro: R$49/mês → até 5 eventos e relatórios.</li>
+    <li>Empresarial: R$199/mês → eventos ilimitados e suporte personalizado.</li>
+  </ul>
+  <p>Vantagem: gera receita previsível e constante.</p>
+
+  <h3>c) Anúncios segmentados</h3>
+  <p>Como funciona: banners ou anúncios pagos dentro da plataforma, voltados a públicos específicos (ex: bares, restaurantes, empresas de som e luz).</p>
+  <p>Ferramentas: Google AdSense ou parcerias diretas com marcas.</p>
+  <p>Risco: O excesso de anúncios pode prejudicar a experiência do usuário.</p>
+
+  <h2>2. Monetização Indireta</h2>
+
+  <h3>a) Parcerias com empresas locais</h3>
+  <p>Restaurantes, hotéis e transportes podem pagar para aparecer como “locais parceiros” próximos a cada evento.</p>
+  <p class="example">Exemplo: ao visualizar um show, o app sugere um restaurante patrocinado nas redondezas.</p>
+
+  <h3>b) Programa de afiliados</h3>
+  <p>Indicação de serviços de terceiros (ex: Airbnb, Uber, Ticketmaster).</p>
+  <p class="example">Você recebe comissão por cada venda gerada pelo seu link.</p>
+
+  <h3>c) Venda de dados agregados (respeitando LGPD)</h3>
+  <p>Relatórios para empresas sobre tendências de eventos, picos de compra, locais mais ativos etc.</p>
+  <p>Deve sempre preservar o anonimato dos usuários.</p>
+
+  <h2>3. Monetização Técnica (futuro da plataforma)</h2>
+  <table>
+    <tr>
+      <th>Estratégia</th>
+      <th>Descrição</th>
+      <th>Exemplo de Ferramenta</th>
+    </tr>
+    <tr>
+      <td>Pagamentos integrados</td>
+      <td>Cobrar e repassar automaticamente via API</td>
+      <td>Stripe, Mercado Pago</td>
+    </tr>
+    <tr>
+      <td>API para parceiros</td>
+      <td>Cobrar para terceiros usarem seus dados de eventos</td>
+      <td>API REST / GraphQL</td>
+    </tr>
+    <tr>
+      <td>Aplicativo mobile pago (premium)</td>
+      <td>Recursos extras, sem anúncios</td>
+      <td>Flutter / React Native</td>
+    </tr>
+  </table>
+
+</body>
+</html>
